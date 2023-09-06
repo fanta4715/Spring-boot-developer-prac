@@ -17,10 +17,10 @@ spring:
         registration:
           google:
             client-id: 104..
-            client-secret: is it visible?
+            client-secret: is it visible?2
             scope:
               - email
-              - profile
+              - profileㅎ
 jwt:
   issuer: ajufresh@gmail.com
   secret_key: study-springboot
