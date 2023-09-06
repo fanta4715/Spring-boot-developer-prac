@@ -17,7 +17,7 @@ spring:
         registration:
           google:
             client-id: 104..
-            client-secret: GO..d
+            client-secret: is it visible?
             scope:
               - email
               - profile
