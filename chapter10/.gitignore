@@ -23,5 +23,5 @@
 hs_err_pid*
 
 # application.yml 깃 안하고 픔
-src/main/resources/application.yml
-#application.yml
+#src/main/resources/application.yml
+application.yml
