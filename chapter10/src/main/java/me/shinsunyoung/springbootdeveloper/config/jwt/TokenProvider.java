@@ -15,7 +15,8 @@ import java.time.Duration;
 import java.util.Collections;
 import java.util.Date;
 import java.util.Set;
-
+//JwtProvider와 세트
+//Token 생성,유효성 검증,토큰 기반 인증정보, 유저ID가져오기 ...
 @RequiredArgsConstructor
 @Service
 public class TokenProvider {
