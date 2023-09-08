@@ -10,7 +10,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-
+//RefreshToken은 보통 httpOnly Cookie를 통해서 전달
+//그냥 JWT(AccessToken)는 JSON형식으로 헤더에 담고, 클라이언트(브라우저)가 저장하는 방식
 @RequiredArgsConstructor
 @RestController
 public class TokenApiController {
