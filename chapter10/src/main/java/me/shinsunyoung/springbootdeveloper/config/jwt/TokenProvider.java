@@ -17,6 +17,10 @@ import java.util.Date;
 import java.util.Set;
 //JwtProvider와 세트
 //Token 생성,유효성 검증,토큰 기반 인증정보, 유저ID가져오기 ...
+//jwtProperties -> TokenProvider -> TokenService
+//AccessToken 서명 확인 기능
+// + AccessToken에서 유저정보 가져오는 기능
+// + AccessToken 생성 기능
 @RequiredArgsConstructor
 @Service
 public class TokenProvider {

@@ -5,6 +5,7 @@ import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+//refreshtoken은 db에서 관리함.
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @Getter
 @Entity

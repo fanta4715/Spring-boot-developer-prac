@@ -22,6 +22,7 @@ public class TokenApiController {
     //애초에 RefreshToken을 하든 뭘 하든, 하나의 컨트롤러에 매핑되야 함!!
     private final TokenService tokenService;
 
+    // 리프레시 토큰을 기반으로 새로운 엑세스 토큰을 만들어줌
     @PostMapping("/api/token")
     public ResponseEntity<CreateAccessTokenResponse> createNewAccessToken(@RequestBody CreateAccessTokenRequest request) {
         String newAccessToken = tokenService.createNewAccessToken(request.getRefreshToken());
